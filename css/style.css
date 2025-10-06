@@ -157,7 +157,7 @@ h1 {
 	font-size: 80px;
 	line-height: 1.1;
 	color: #fff;
-	margin-bottom: 32px;
+	margin-bottom: 26px;
 }
 h2 {
 	font-size: 22px;
@@ -277,7 +277,6 @@ a {
 .logo {
     margin-bottom: 5px;
 }
-/*
 .logo:before, .logo:after {
 	font-size: 16px;
 	line-height: 1;
@@ -289,11 +288,6 @@ a {
 }
 .logo:after {
     content: "L";
-}
-*/
-.logo .img-fluid {
-    max-width: 180px;
-    height: auto;
 }
 .logo a {
     text-decoration: none;
@@ -429,12 +423,12 @@ a.menu:hover, a.close-menu:hover, div#menu li a:hover {
 a.rsvp {
     font-size: 18px;
     text-transform: uppercase;
-    font-weight: 700;
-    letter-spacing: 3px;
+    font-weight: 600;
+    letter-spacing: 4px;
     color: #fff;
     padding: 10px 30px;
     border-radius: 50px;
-    transition: 0.2s ease!important;
+	transition: 0.2s ease!important;
 }
 a.close-menu {
     font-size: 54px;
@@ -748,9 +742,6 @@ div#footer {
 .home div#content {
     margin-top: 800px;
 }
-.details h2 {
-    font-size: 18px;
-}
 .details h3 {
     font-size: 32px;
 }
@@ -758,7 +749,6 @@ div#footer {
     font-size: 16px;
     line-height: 1.4;
     letter-spacing: 3px;
-    margin-bottom: 10px;
 }
 ul.categories a {
 	color: #555555!important;
@@ -767,15 +757,8 @@ ul.categories a {
 ul.categories a:hover {
 	color: #1e1e1e!important;
 }
-@media (max-width: 1099px) {
-	.wed-vid iframe {
-	    height: 640px!important;
-	}
-}
 @media (max-width: 991px) {
-	.wed-vid iframe {
-	    height: 480px!important;
-	}
+
 }
 @media screen and (max-width:767px) {
 	.gh-content .pull-left, .gh-content .pull-right {
@@ -783,9 +766,6 @@ ul.categories a:hover {
 		width: auto;
 		display: inline-block!important;
 		margin-top: -20px;
-	}
-	.wed-vid iframe {
-	    height: 360px!important;
 	}
 }
 @media screen and (max-width: 575px) {
@@ -795,14 +775,7 @@ ul.categories a:hover {
 	.home div#content {
 		margin-top: 100vh;
 	}
-	.wed-vid iframe {
-	    height: 230px!important;
-	    width: 345px!important;
-	}
 }
 @media screen and (max-width: 320px) {
-	.wed-vid iframe {
-	    height: 200px!important;
-	    width: 345px!important;
-	}
+	
 }
